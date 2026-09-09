@@ -1,0 +1,10 @@
+{
+  "name": "derpfest-17-build",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "hostRequirements": {
+    "cpus": 32,
+    "memory": "64gb",
+    "storage": "128gb"
+  },
+  "postCreateCommand": "bash scripts/01-setup-env.sh"
+}
