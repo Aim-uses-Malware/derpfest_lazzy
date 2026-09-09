@@ -24,7 +24,7 @@ export PATH="$HOME/bin:$PATH"
 
 echo "==> Setting git identity (edit these or export before rebuild)..."
 git config --global user.name "${GIT_USER_NAME:-Артём}"
-git config --global user.email "${GIT_USER_EMAIL:-you@example.com}"
+git config --global user.email "${GIT_USER_EMAIL:-flamikgamesfree@gmail.com}"
 git config --global color.ui auto
 
 echo "==> Configuring ccache..."
