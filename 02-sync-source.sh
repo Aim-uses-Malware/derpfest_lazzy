@@ -23,9 +23,9 @@ if [ ! -f "$LOCAL_MANIFEST" ]; then
 cat > "$LOCAL_MANIFEST" << EOF
 <manifest>
   <!-- Replace YOUR_GH_USER and the revisions with your actual device/kernel/vendor repos -->
-  <project name="YOUR_GH_USER/android_device_xiaomi_${DEVICE_CODENAME}" path="device/xiaomi/${DEVICE_CODENAME}" remote="github" revision="lineage-22.2" />
-  <project name="YOUR_GH_USER/android_kernel_xiaomi_sm6225" path="kernel/xiaomi/sm6225" remote="github" revision="derpfest-17" />
-  <project name="YOUR_GH_USER/android_vendor_xiaomi_${DEVICE_CODENAME}" path="vendor/xiaomi/${DEVICE_CODENAME}" remote="github" revision="lineage-22.2" />
+  <project name="sayann70/device_xiaomi_${DEVICE_CODENAME}" path="device/xiaomi/${DEVICE_CODENAME}" remote="github" revision="lineage-22.2" />
+  <project name="sayann70/kernel_xiaomi_spes" path="kernel/xiaomi/sm6225" remote="github" revision="derpfest-17" />
+  <project name="sayann70/vendor_xiaomi_${DEVICE_CODENAME}" path="vendor/xiaomi/${DEVICE_CODENAME}" remote="github" revision="lineage-22.2" />
 </manifest>
 EOF
   echo "==> Wrote a template to $LOCAL_MANIFEST — edit it with your real repo URLs, then re-run this script."
